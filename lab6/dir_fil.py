@@ -68,7 +68,7 @@ def cl(fname):
     with open(fname, 'r') as file:
             count= sum(1 for line in file)
             print(f"The number of lines in {fname} is: {count}")
-fname=input(" ")
+fname=input("")
 cl(fname)
 
 
